@@ -1,9 +1,11 @@
-
   "git://github.com/astashov/vim-ruby-debugger.git",
   "git://github.com/ervandew/supertab.git",
   "git://github.com/godlygeek/tabular.git",
   "git://github.com/hallison/vim-rdoc.git",
-  "git://github.com/msanders/snipmate.vim.git",
+  "https://github.com/garbas/vim-snipmate",
+  "https://github.com/MarcWeber/vim-addon-mw-utils.git",
+  "https://github.com/tomtom/tlib_vim.git",
+  "https://github.com/honza/vim-snippets.git",
   "git://github.com/pangloss/vim-javascript.git",
   "git://github.com/scrooloose/nerdtree.git",
   "git://github.com/timcharper/textile.vim.git",
@@ -24,4 +26,4 @@
   "git://github.com/vim-ruby/vim-ruby.git",
   "git://github.com/vim-scripts/Gist.vim.git",
   "https://github.com/itspriddle/vim-marked.git",
-  "https://github.com/rhysd/open-pdf.vim.git",
+  "https://github.com/rhysd/open-pdf.vim.git"
