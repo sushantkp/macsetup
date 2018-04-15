@@ -10,3 +10,68 @@
  brew install tree
  brew install httpie
  brew install uuidgen
+
+ brew install Caskroom/cask/robomongo
+ brew install Caskroom/cask/the-unarchiver
+ brew install Caskroom/cask/webstorm
+ brew install PhantomJs
+ brew install antigen 	# plugin manager for zsh
+
+ brew install robomongo
+ brew install awscli
+
+ brew install ctags
+ brew install icdiff
+ brew install multitail
+ brew install caskroom/homebrew-cask/ngrok2
+ brew install moreutils
+		chronic: runs a command quietly unless it fails
+		combine: combine the lines in two files using boolean operations
+		errno: look up errno names and descriptions
+		ifdata: get network interface info without parsing ifconfig output
+		ifne: run a program if the standard input is not empty
+		isutf8: check if a file or standard input is utf-8
+		lckdo: execute a program with a lock held
+		mispipe: pipe two commands, returning the exit status of the first
+		parallel: run multiple jobs at once
+		pee: tee standard input to pipes
+		sponge: soak up standard input and write to a file
+		ts: timestamp standard input
+		vidir: edit a directory in your text editor
+		vipe: insert a text editor into a pipe
+		zrun: automatically uncompress arguments to command
+ brew install wireshark 	# network traffic dump
+ brew install jq 	# json formatting and filtering
+ brew install https://raw.githubusercontent.com/EricChiang/pup/master/pup.rb 	# html processing tool https://github.com/ericchiang/pup/blob/master/README.md
+ brew install pandoc	# document markup converter for e.g. markdown to html or to latex
+ brew install shellcheck	# check shellscript formatting
+ brew install phantomjs 	# headless browser
+ brew install poppler	# pdfutils
+		poppler-utils is a collection of tools builds on poppler library API, to manage PDF and extract contents.
+		pdfdetach extract embedded documents from a PDF
+		pdffonts lists the fonts used in a PDF
+		pdfimages extract all embedded images at native resolution from a PDF
+		pdfinfo list all infos of a PDF
+		pdfseparate extract single pages from a PDF
+		pdftocairo convert single pages from a PDF to vector or bitmap formats using cairo
+		pdftohtml convert PDF to HTML format retaining formatting
+		pdftoppm convert a PDF page to a bitmap
+		pdftops convert PDF to printable PS format
+		pdftotext extract all text from PDF
+		pdfunite merges several PDF
+ brew install wakeonlan
+ brew install youtube-dl
+
+ brew install clisp
+ brew install go
+ brew install gradle
+ brew install kotlin
+ brew install php
+
+ brew install yarn --ignore-dependencies
+
+# Following datastores in docker
+	mysql
+	mongodb
+ 	vault
+	elasticsearch
