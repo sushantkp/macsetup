@@ -2,28 +2,23 @@
  brew install caskroom/cask/java8
  brew install caskroom/cask/java 	# current version: java 10
  brew install jenv
- brew install caskroom/cask/mysqlworkbench
- brew install docker
- brew install intellij
  brew install maven
+ brew install gradle
  brew install node@6 # should install npm
- brew install tree
- brew install httpie
- brew install uuidgen
 
- brew install Caskroom/cask/robomongo
- brew install Caskroom/cask/the-unarchiver
- brew install Caskroom/cask/webstorm
- brew install PhantomJs
- brew install antigen 	# plugin manager for zsh
-
- brew install robomongo
+ brew install docker
  brew install awscli
+
+ brew install caskroom/cask/mysqlworkbench
+ brew cask install robo-3t # new name for robomongo
+ brew install caskroom/cask/webstorm
+ brew install intellij
+ brew install antigen 	# plugin manager for zsh
 
  brew install ctags
  brew install icdiff
  brew install multitail
- brew install caskroom/homebrew-cask/ngrok2
+ brew cask install ngrok 	# local server access from external
  brew install moreutils
 		chronic: runs a command quietly unless it fails
 		combine: combine the lines in two files using boolean operations
@@ -40,9 +35,11 @@
 		vidir: edit a directory in your text editor
 		vipe: insert a text editor into a pipe
 		zrun: automatically uncompress arguments to command
- brew install wireshark 	# network traffic dump
+ brew install wireshark 	# network traffic dump --commandline
+ brew cask install wireshark	# app
  brew install jq 	# json formatting and filtering
- brew install https://raw.githubusercontent.com/EricChiang/pup/master/pup.rb 	# html processing tool https://github.com/ericchiang/pup/blob/master/README.md
+ brew install pup 	# html processing tool https://github.com/ericchiang/pup/blob/master/README.md
+ brew install httpie
  brew install pandoc	# document markup converter for e.g. markdown to html or to latex
  brew install shellcheck	# check shellscript formatting
  brew install phantomjs 	# headless browser
@@ -59,12 +56,14 @@
 		pdftops convert PDF to printable PS format
 		pdftotext extract all text from PDF
 		pdfunite merges several PDF
+ brew install tree
+ brew install uuidgen
  brew install wakeonlan
  brew install youtube-dl
+ brew install Caskroom/cask/the-unarchiver
 
  brew install clisp
  brew install go
- brew install gradle
  brew install kotlin
  brew install php
 
